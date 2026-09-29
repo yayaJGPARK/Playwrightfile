@@ -1,6 +1,7 @@
-def test_google(page):
+def test_web(page):
+
     page.goto("/")
 
     print(page.title())
 
-    assert "Google" in page.title()
+    assert "The Internet" in page.title()
