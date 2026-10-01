@@ -9,7 +9,7 @@ def test_file_upload(page):
     file_input = page.locator("#file-upload")
 
     file_input.set_input_files(
-        "tests/File_Upload/test.txt"
+        "tests/file_Upload/test.txt"
     )
 
     input("선택 확인 → Enter")

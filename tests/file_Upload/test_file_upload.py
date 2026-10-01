@@ -9,7 +9,7 @@ def test_file_upload(page):
     file_input = page.locator("#file-upload")
 
     file_input.set_input_files(
-        "tests/File_Upload/zenzen.jpg"
+        "tests/file_Upload/zenzen.jpg"
     )
 
     # Upload 버튼 클릭
